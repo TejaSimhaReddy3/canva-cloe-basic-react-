@@ -1,0 +1,58 @@
+.listsContainers {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 8%;
+}
+.tabButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  padding: 20px;
+  font-size: 17.5px;
+  background-color: #e9e9e930;
+  border: none;
+  color: white;
+  outline: none;
+}
+.tabListContainer {
+  padding: 20px;
+  box-shadow: 0 0 0 1px rgb(68 92 116 / 2%), 0 2px 8px rgb(57 76 96 / 15%);
+}
+.listPara {
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+.tabButton:hover {
+  color: bisque;
+}
+.tabButton:hover {
+  background-color: #ffffffa4;
+}
+.smallTriangle {
+  width: 15%;
+}
+.forImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 577px) {
+  .tabButton {
+    background-color: transparent;
+    font-size: 60px;
+  }
+  .listPara {
+    font-size: 20px;
+  }
+  .listsContainers {
+    width: 20%;
+  }
+}

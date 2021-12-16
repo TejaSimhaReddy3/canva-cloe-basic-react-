@@ -1,0 +1,39 @@
+.elementLists {
+  list-style: none;
+  padding: 20px;
+  position: static;
+}
+.webSiteContainerClass {
+  color: black;
+  background-color: #f8f9f9;
+}
+.webSiteContainerClass:hover {
+  text-decoration: none;
+  color: black;
+}
+.elementResolution {
+  display: none;
+}
+.elementImgs {
+  width: 100px;
+  height: 80px;
+}
+.elementHead {
+  font-size: 15px;
+  margin-top: 10px;
+}
+.elementResolution {
+  display: none;
+}
+.elementLists:hover + .elementResolution {
+  display: block;
+}
+@media (max-width: 577px) {
+  .elementImgs {
+    width: 250px;
+    height: 200px;
+  }
+  .elementHead {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,25 @@
+.lowerCarouselList {
+  list-style: none;
+}
+.lowerCarouselContainer {
+  width: 100%;
+  margin: 10px;
+  padding: 6px;
+}
+.lImgs {
+  width: 250px;
+}
+.lPara {
+  font-size: 12px;
+  font-weight: 500;
+}
+@media (max-width: 577px) {
+  .lImgs {
+    width: 500px;
+  }
+  .lPara {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+  }
+}

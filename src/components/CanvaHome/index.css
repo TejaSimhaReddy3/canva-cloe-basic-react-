@@ -1,0 +1,566 @@
+.mainContainer {
+  margin: 10px;
+  font-family: 'Open Sans,Noto Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif';
+}
+
+.logoImg {
+  width: 100px;
+  height: 50px;
+}
+.mainHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.spaceBetween {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+.pointerCursor {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #0e1318;
+}
+.optionsMenu {
+  display: flex;
+  justify-content: space-between;
+}
+.lastElements {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.helpAnchor {
+  font-size: 20px;
+  margin: 10px;
+}
+.loginButton {
+  background-color: rgba(64, 87, 109, 0.07);
+  color: #0e1318;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  padding: 10px;
+  margin: 5px;
+}
+.signupButton {
+  background-color: #7d2ae8;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  padding: 10px;
+  margin: 5px;
+}
+.signupButton1 {
+  background-color: #7d2ae8;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  padding: 10px;
+  width: 10%;
+}
+.navContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navSearchContainer {
+  display: none;
+}
+.navBarContainer {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+.pointerCursor:hover {
+  background-color: rgba(64, 87, 109, 0.07);
+  border-radius: 5px;
+}
+.helpAnchor {
+  color: black;
+}
+.helpContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fixed-top {
+  height: 10%;
+}
+.mainComponentContainer {
+  margin: 20px;
+  padding-top: 20px;
+  margin-top: 5%;
+  background-image: linear-gradient(to bottom right, #4ee7f2, #1d57de, #6936c7);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media (max-width: 576px) {
+  .mainComponentContainer {
+    margin-top: 13%;
+  }
+}
+.mainHeading {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+.searchLawadaContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.searchBarContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-family: 'Roboto';
+  width: 50%;
+  padding-top: 20px;
+}
+.searchImage {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 25px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.search-img {
+  width: 100%;
+  padding-left: 5px;
+}
+.searchBar {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.headingAndSize {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.tabsContainer {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+.elementsUlComponent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  justify-content: space-between;
+  background-color: #f8f9f9;
+  width: 100%;
+  margin: 0px;
+}
+.firstContainer {
+  display: flex;
+}
+.contentContainerLower {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  width: 50%;
+}
+.contentButton {
+  background-color: #7d2ae8;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}
+.secondImage {
+  order: 1;
+}
+.thirdImage {
+  width: 50%;
+}
+
+.galleryLists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+.lowerGalleryContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.lowerGalleryHeading {
+  font-weight: 600;
+  font-family: 'Roboto';
+  font-size: 35px;
+}
+.galleryPara {
+  color: #6e6b6be1;
+}
+.galleryButton {
+  background-color: rgba(64, 87, 109, 0.07);
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  transition: opacity 0.15s ease-in-out;
+  outline: none;
+}
+.soloContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.singleSoloContent {
+  display: flex;
+}
+.soloIcons {
+  font-size: 35px;
+  padding: 10px;
+}
+.soloPara {
+  width: 55%;
+}
+.soloContentContainer {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  order: -1;
+}
+.lowerSoloContainer {
+  display: flex;
+}
+.goldenColor {
+  color: gold;
+  font-size: 30px;
+  margin: 5px;
+}
+.subCanvaHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cTypesCont {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+.canvSubContainers {
+  padding: 10px;
+}
+.canvaSubHeading {
+  font-size: 25px;
+}
+.canvaSubPara {
+  font-size: 15px;
+}
+.carouselList {
+  display: flex;
+  overflow-x: auto;
+}
+.belowContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+}
+.footerContainer {
+  justify-content: space-between;
+  margin: 10px;
+  font-family: 'Roboto';
+}
+.footerHead {
+  font-weight: bold;
+  font-size: 30px;
+}
+.footerP {
+  color: #696969;
+  font-size: 12.5px;
+}
+.footerEnd {
+  display: flex;
+  justify-content: space-between;
+}
+.footerPara {
+  border-right: 1px solid #bfbfbf;
+  margin-right: 5px;
+  padding-right: 5px;
+}
+.socialIcons {
+  font-size: 20px;
+  margin: 5px;
+}
+.fa-twitter {
+  color: #1da1f2;
+}
+.fa-pinterest {
+  color: #e60023;
+}
+.fa-instagram {
+  color: #8a3ab9;
+}
+.lower-SectionContainer {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.footerBreak {
+  display: none;
+}
+.footerButton1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+}
+@media (max-width: 990px) {
+  .mainContainer {
+    width: 250%;
+  }
+  .mainComponentContainer {
+    width: 110%;
+    margin: 0px;
+    margin-top: 10%;
+  }
+  .spaceBetween {
+    display: flex;
+    flex-direction: column;
+  }
+  .logoImg {
+    width: 250px;
+    height: 100px;
+  }
+  .searchLawadaContainer {
+    display: none;
+  }
+  .headingAndSize {
+    padding-top: 7.5%;
+  }
+  .elementsUlComponent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: space-between;
+    background-color: #f8f9f9;
+    margin: 0px;
+  }
+  .tabsContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: auto;
+  }
+  .firstContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .contentContainerLower {
+    width: fit-content;
+  }
+  .lowerContentHead {
+    font-size: 70px;
+  }
+  .lowerContainerPara {
+    font-size: 50px;
+    font-family: 'Roboto';
+  }
+  .contentButton {
+    font-size: 45px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .secondImage {
+    order: -1;
+  }
+  .thirdImage {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .lowerGalleryHeading {
+    font-size: 70px;
+  }
+  .galleryPara {
+    font-size: 50px;
+  }
+  .galleryButton {
+    font-size: 40px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .lowerGalleryHeading {
+    font-size: 70px;
+    text-align: start;
+  }
+  .galleryPara {
+    margin-top: 10px;
+  }
+  .soloContainer {
+    align-items: center;
+  }
+  .lowerSoloContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contentImage {
+    order: -1;
+    width: 800px;
+  }
+  .soloIcons {
+    font-size: 70px;
+  }
+  .soloPara {
+    font-size: 45px;
+  }
+  .singleSoloContent {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+  }
+  .galleryButton {
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .lowerContentHead {
+    text-align: start;
+    font-weight: bold;
+  }
+  .cTypesCont {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-family: 'Roboto';
+  }
+  .canvaSubHeading {
+    padding-top: 40px;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .canvaSubPara {
+    font-size: 40px;
+    padding-top: 15px;
+  }
+  .signupButton {
+    font-size: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+  }
+  .footerButton {
+    background-color: #7d2ae8;
+    border: none;
+    color: white;
+  }
+  .subCanvaHead {
+    justify-content: start;
+  }
+  .goldenColor {
+    font-size: 80px;
+  }
+  .lowerContentHead {
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: 60px;
+  }
+  .carouselList {
+    padding-left: 0px;
+  }
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerEnd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footerTermsnAndConditions {
+    order: 2;
+  }
+  .footerFollowAccounts {
+    order: 1;
+  }
+  .footerBreak {
+    display: block;
+  }
+  .optionsClass {
+    font-size: 40px;
+  }
+  .footerHead {
+    font-size: 40px;
+  }
+  .footerP {
+    font-size: 30px;
+  }
+  .footerOptions {
+    font-size: 50px;
+    padding: 10px;
+    font-family: 'Roboto';
+    border: none;
+  }
+  .copyrightsPara {
+    font-size: 25px;
+    font-family: 'Roboto';
+  }
+  .socialIcons {
+    font-size: 50px;
+  }
+  .footerFollowAccounts {
+    margin: 20px;
+  }
+  .signupButton1 {
+    background-color: #7d2ae8;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    width: 30%;
+  }
+  .footerButton1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+}
