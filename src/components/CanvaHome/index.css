@@ -253,6 +253,11 @@
   justify-content: center;
   order: -1;
 }
+.footerButton {
+  background-color: #7d2ae8;
+  border: none;
+  color: white;
+}
 .lowerSoloContainer {
   display: flex;
 }
