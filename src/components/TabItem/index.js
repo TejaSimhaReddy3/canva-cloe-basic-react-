@@ -9,7 +9,7 @@ const TabItem = props => {
   }
 
   const focusedImage = isActive
-    ? 'https://res.cloudinary.com/tejasimhareddy3/image/upload/v1639596398/pngaaa.com-13209_m16mjy.png'
+    ? 'https://res.cloudinary.com/tejasimhareddy3/image/upload/v1639709076/pngaaa.com-13209_yapyby.png'
     : 'https://res.cloudinary.com/tejasimhareddy3/image/upload/v1639597043/output-onlinepngtools_vji6c0.png'
   return (
     <li className="listsContainers">
